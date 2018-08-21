@@ -142,4 +142,5 @@ hexo new post “文章名”
 $ hexo g -d
 $ hexo d -g
 ```
-访问你的地址：http://用户名.github.io;可以看到生成的文章
+访问你的地址：http://用户名.github.io;可以看到生成的文章<br/>
+参考链接：[https://www.cnblogs.com/fengxiongZz/p/7707219.html](https://www.cnblogs.com/fengxiongZz/p/7707219.html "参考链接")
