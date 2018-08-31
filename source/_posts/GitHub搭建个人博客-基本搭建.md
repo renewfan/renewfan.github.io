@@ -11,9 +11,10 @@ categories: hexo
 <!-- toc -->
 ## 一、基本搭建
 ### 1、搭建环境
-需要先按症状node.js和node.js环境（安装一直下一步即可）
+需要先安装node.js和node.js环境（安装一直下一步即可）
 检测是否安装成功：
 在命令行（cmd或者git bash）输入下列命令
+
 ```
 node -v  npm -v
 ```
@@ -30,7 +31,7 @@ ps:必须使用自己GitHub账户名，不然会访问不到<br>
 点击右侧setting下拉找到GitHub pages 找到所创建的项目的访问网址
 
 ```
-http://账户名.github,io
+http://账户名.github.io
 ```
 ### 3、安装hexo
 在自己电脑合适的位置安装即可（打开git）
