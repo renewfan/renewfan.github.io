@@ -13,7 +13,7 @@ categories: hexo
 ### 1、搭建环境
 需要先安装node.js和node.js环境（安装一直下一步即可）
 检测是否安装成功：
-在命令行（cmd或者git bash）输入下列命令
+在命令行（cmd或者`git bash`）输入下列命令
 
 ```
 node -v  npm -v
