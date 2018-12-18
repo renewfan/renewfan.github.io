@@ -2,9 +2,12 @@
 title: flex
 date: 2018-12-14 15:55:46
 tags:
-    - flex
-categories:
-copyright: notes
+- flex
+- 小程序
+- css
+categories: 
+- notes
+copyright: 
 ---
 # flex布局
 <!-- toc -->

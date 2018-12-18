@@ -136,7 +136,45 @@ npm install hexo-deployer-git --save
 hexo new post “文章名”
 ```
 在hexo\source\_posts可以找到创建的文件
+####分类、标签
+Hexo 中两者有着明显的差别：
+1、分类具有顺序性和层次性，也就是说 Foo, Bar 不等于 Bar, Foo
+```
+categories:
+ - Diary
+ - Life
+ 会使分类`Life`成为`Diary`的子分类，而不是并列分类。
+```
+分类创建
+```
+hexo new page categories
 
+#编辑分类 hexo/source/categories/index.md
+---
+title: categories
+date: 2018-08-20 14:34:17
+type: categories
+---
+```
+
+2、标签没有顺序和层次。
+```
+hexo new page tags
+
+#编辑标签  hexo/source/tags/index.md
+
+---
+title: tags
+date: 2018-08-20 14:35:06
+type: tags
+---
+```
+创建标签
+```
+tags:
+ - PS3
+ - Games
+```
 生成+部署
 
 ```
