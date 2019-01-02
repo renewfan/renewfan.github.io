@@ -6,6 +6,7 @@ tags:
 	- github
 	- node.js
 categories: hexo
+copyright: true
 ---
 # GitHub搭建个人博客-基本搭建
 <!-- toc -->

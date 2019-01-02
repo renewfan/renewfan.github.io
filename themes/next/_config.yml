@@ -68,7 +68,7 @@ footer:
     # `heart` is recommended with animation in red (#ff0000).
     name: user
     # If you want to animate the icon, set it to true.
-    animated: false
+    animated: true
     # Change the color of icon, using Hex Code.
     color: "#808080"
 
@@ -77,15 +77,15 @@ footer:
   # -------------------------------------------------------------
   powered:
     # Hexo link (Powered by Hexo).
-    enable: true
+    enable: false
     # Version info of Hexo after Hexo link (vX.X.X).
-    version: true
+    version: false
 
   theme:
     # Theme & scheme info link (Theme - NexT.scheme).
-    enable: true
+    enable: false
     # Version info of NexT after scheme info (vX.X.X).
-    version: true
+    version: false
   # -------------------------------------------------------------
   # Beian icp information for Chinese users. In China, every legal website should have a beian icp in website footer.
   # http://www.miitbeian.gov.cn
@@ -102,8 +102,8 @@ footer:
 # Available: by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | zero
 creative_commons:
   license: by-nc-sa
-  sidebar: false
-  post: false
+  sidebar: true
+  post: true
 
 
 # ---------------------------------------------------------------
@@ -239,7 +239,7 @@ sidebar:
   # If commented, will be default for:
   # Muse | Mist: 320
   # Pisces | Gemini: 240
-  #width: 300
+  width: 300
 
   # Sidebar Display, available value (only for Muse | Mist):
   #  - post    expand on posts automatically. Default.
@@ -272,7 +272,7 @@ sidebar:
 scroll_to_more: true
 
 # Automatically saving scroll position on each post/page in cookies.
-save_scroll: false
+save_scroll: true
 
 # Automatically excerpt description in homepage as preamble text.
 excerpt_description: true
@@ -351,7 +351,7 @@ related_posts:
 # Post edit
 # Dependencies: https://github.com/hexojs/hexo-deployer-git
 post_edit:
-  enable: true
+  enable: false
   url: https://github.com/user-name/repo-name/tree/branch-name/subdirectory-name/ # Link for view source.
   #url: https://github.com/user-name/repo-name/edit/branch-name/subdirectory-name/ # Link for fork & edit.
 
@@ -806,7 +806,7 @@ tabs:
 # Reading progress bar
 # Dependencies: https://github.com/theme-next/theme-next-reading-progress
 reading_progress:
-  enable: false
+  enable: true
   color: "#37c6c0"
   height: 2px
 
@@ -868,7 +868,8 @@ pace: true
 #pace-theme-minimal
 # For example
 # pace_theme: pace-theme-center-simple
-pace_theme: pace-theme-minimal
+pace_theme: pace-theme-bounce
+
 
 # Canvas-nest
 # Dependencies: https://github.com/theme-next/theme-next-canvas-nest
@@ -1069,3 +1070,7 @@ js: js
 images: images
 passage_end_tag:
   enabled: true
+post_wordcount:
+  item_text: true
+  wordcount: true
+  min2read: true
