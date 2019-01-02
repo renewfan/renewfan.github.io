@@ -1478,24 +1478,6 @@ pre .javascript .function {
   text-align: center;
   font-weight: 400;
 }
-.posts-expand .post-title .post-edit-link {
-  color: #bbb;
-  display: inline-block;
-  float: right;
-  border-bottom: none;
-  transition-duration: 0.2s;
-  transition-timing-function: ease-in;
-  transition-delay: 0s;
-  margin-left: -1.2em;
-}
-@media (max-width: 567px) {
-  .posts-expand .post-title .post-edit-link {
-    margin-left: initial;
-  }
-}
-.posts-expand .post-title .post-edit-link:hover {
-  color: #000;
-}
 .posts-expand .post-title-link {
   display: inline-block;
   position: relative;
@@ -1677,6 +1659,16 @@ pre .javascript .function {
 .fancybox-close:hover {
   border: none;
 }
+.post-copyright {
+  margin: 2em 0 0;
+  padding: 0.5em 1em;
+  border-left: 3px solid #ff1700;
+  background-color: #f9f9f9;
+  list-style: none;
+}
+.post-copyright i.fa {
+  font-size: 15px;
+}
 .rtl.post-body p,
 .rtl.post-body a,
 .rtl.post-body h1,
@@ -1693,6 +1685,16 @@ pre .javascript .function {
 }
 .rtl.post-title {
   font-family: UKIJ Ekran;
+}
+.reading-progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #37c6c0;
 }
 .sidebar {
   position: fixed;
@@ -1863,7 +1865,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #b1ff63;
+  background: #475b6a;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -1992,6 +1994,9 @@ pre .javascript .function {
 }
 .footer-inner {
   text-align: center;
+}
+#animate {
+  animation: iconAnimate 1.33s ease-in-out infinite;
 }
 .with-love {
   display: inline-block;
@@ -2560,14 +2565,14 @@ ul.breadcrumb li+li:last-child {
   top: 0;
   overflow: hidden;
   padding: 0;
-  width: 240px;
+  width: 300px;
   background: #fff;
   box-shadow: initial;
   border-radius: initial;
 }
 @media (min-width: 1200px) {
   .container .header-inner {
-    width: 240px;
+    width: 300px;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -2616,7 +2621,7 @@ ul.breadcrumb li+li:last-child {
   float: right;
   box-sizing: border-box;
   padding: 40px;
-  width: calc(100% - 252px);
+  width: calc(100% - 312px);
   background: #fff;
   min-height: 700px;
   box-shadow: initial;
@@ -2641,7 +2646,7 @@ ul.breadcrumb li+li:last-child {
   position: static;
   float: left;
   margin-left: -100%;
-  width: 240px;
+  width: 300px;
   background: #f5f7f9;
   box-shadow: none;
 }
@@ -2851,7 +2856,7 @@ ul.breadcrumb li+li:last-child {
 }
 .sidebar-inner {
   box-sizing: border-box;
-  width: 240px;
+  width: 300px;
   color: #555;
   background: #fff;
   box-shadow: initial;
@@ -3013,4 +3018,20 @@ ul.breadcrumb li+li:last-child {
   color: #fc6423;
   border-bottom: none;
   border-bottom: 1px solid #fc6423;
+}
+code {
+  color: #ff7600;
+  background: #fbf7f8;
+  margin: 2px;
+}
+.highlight,
+pre {
+  margin: 5px 0;
+  padding: 5px;
+  border-radius: 3px;
+}
+.highlight,
+code,
+pre {
+  border: 1px solid #d6d6d6;
 }
